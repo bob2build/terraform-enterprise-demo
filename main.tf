@@ -1,5 +1,6 @@
 module "vpc" {
-  name = "bob-tfe-demo"
+  source = "terraform-aws-modules/vpc/aws"
+  name   = "bob-tfe-demo"
 
   cidr = "10.10.0.0/16"
 
