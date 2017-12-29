@@ -1,6 +1,4 @@
 module "vpc" {
-  source = "../../"
-
   name = "bob-tfe-demo"
 
   cidr = "10.10.0.0/16"
