@@ -1,3 +1,8 @@
+provider "aws" {
+  version = "~> 1.0.0"
+  region  = "us-east-1"
+}
+
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
   name   = "bob-tfe-demo"
