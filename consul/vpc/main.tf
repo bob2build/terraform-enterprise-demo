@@ -17,7 +17,7 @@ module "vpc" {
 
   create_database_subnet_group = false
 
-  enable_nat_gateway = true
+  enable_nat_gateway = false
   enable_vpn_gateway = true
 
   enable_s3_endpoint       = true
