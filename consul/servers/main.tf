@@ -5,7 +5,7 @@ provider "aws" {
 
 module "server" {
   name         = "bob-tfe-demo"
-  source       = "terraform-aws-modules/consul/aws"
+  source       = "hashicorp/consul/aws"
   region       = "us-east-1"
   vpc_id       = "vpc-7e5e7506"
   ssh_key_name = "bob2build"
